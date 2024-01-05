@@ -72,7 +72,6 @@ $(function () {
   }
   createCards()
   retrieve()
-
   $(".saveBtn").on("click", function saveButton() {
     // Get the input and hour elements
     let input = $(this).parent().children().eq(1);
